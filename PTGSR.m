@@ -1,4 +1,4 @@
-function [computedClass recogRate] = PTGSR3(trainSet,testSet,options)
+function [computedClass recogRate] = PTGSR(trainSet,testSet,options)
 
 k = options.k;
 TrainT = trainSet.input;
